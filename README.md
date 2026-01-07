@@ -1,4 +1,4 @@
-# 🚀 Python CI/CD Pipeline with AWS & GitHub Actions
+# 🚀 Python CI/CD Pipeline with AWS & GitHub Actions 
 
 ![Docker](https://img.shields.io/badge/Docker-ready-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
