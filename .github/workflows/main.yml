@@ -210,7 +210,7 @@ jobs:
         sleep 10
 
         # Check if container is running
-        CONTAINER_STATUS=$($SSH_COMMAND "sudo docker ps --filter 'name=py-aws-cicd' --format '{{.Status}}'")
+        CONTAINER_STATUS=$($SSH_COMMAND "sudo docker ps --filter 'name=py-aws-cicd1' --format '{{.Status}}'")
         
         if [ -z "$CONTAINER_STATUS" ]; then
           echo "ERROR: Container is not running on EC2 instance"
