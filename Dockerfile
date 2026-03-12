@@ -1,7 +1,7 @@
 ARG PYTHON_VERSION=3.12.8
 FROM python:${PYTHON_VERSION}-alpine3.21 AS base
 
-# Make sure system packages are always up-to-date 
+# Make sure system packages are always up-to-date
 RUN apk update && apk upgrade --no-cache
 
 # Prevents Python from writing pyc files.
